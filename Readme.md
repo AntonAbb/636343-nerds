@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Антон Аббасов](https://up.htmlacademy.ru/htmlcss/20/user/636343).
-* Наставник:[Артем Рудов](https://htmlacademy.ru/profile/artrudov).
+* Наставник: [Артем Рудов](https://htmlacademy.ru/profile/artrudov).
 
 ---
 
