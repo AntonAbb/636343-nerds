@@ -37,21 +37,21 @@
         <section class="filters">
           <h2 class="visually-hidden">Фильтр товаров</h2>
       
-          <form class="filter" method="get"
-              <action="https://echo.htmlacademy.ru">
+          <form class="filter" method="get">
+            <action="https://echo.htmlacademy.ru">.
               <fieldset>
                 <legend class="price">Стоимость</legend>
-                <div class="filter-price">
-                  <div class="price" min="0" max="15000" step="1">
-                  <span class="visually-hidden">Стоимость от</span>
-                  <span class="visually-hidden"></span>
-                  <span class="visually-hidden">Стоимость до</span>
-                  </div>
+                <div class="filter-interval__slider">
+                  <div class="filter-interval__slide-line"></div>
+                  <div class="filter-interval__slide-line_active"></div>
+                  <div class="filter-interval__slider-badge filter-interval__slider-badge_left"></div>
+                  <div class=" filter-interval__slider-badge filter-interval__slider-badge_right"></div>
+          </div>
                 <input type="text" value="0">
-                <label for="">
+                <label for="min-value">
                 </label>
                 <input type="text" value="15000">
-                <label for="">
+                <label for="max-value">
                 </label>
               </fieldset>
               <fieldset>
@@ -62,11 +62,11 @@
                     <label for="adaptive">Адаптивная</label>
                   </li>
                   <li>
-                    <input type="radio" mame="grid" value="fixed" id="fixed">
+                    <input type="radio" name="grid" value="fixed" id="fixed">
                     <label for="fixed">Фиксированная</label>
                   </li>
                   <li>
-                    <input type="radio" mame="grid" value="rubber" id="rubber">
+                    <input type="radio" name="grid" value="rubber" id="rubber">
                     <label for="rubber">Резиновая</label>
                   </li>
                 </ul>
@@ -97,7 +97,7 @@
                   </ul>
                 </fieldset> 
             <button type="submit">Показать</button>
-         </form>
+          </form>
         </section>
         <section class="catalog">
           <h2 class="visually-hidden">Список готовых шаблонов</h2>
@@ -113,7 +113,8 @@
           </p>
           <p class="catalog-item">
             <a class="button" href="#"
-            <strong>9 900 РУБ.</strong></a>
+              <strong>9 900 РУБ.</strong>
+          </a>
           </p>
         </li>
         <li class="catalog-item.html">
@@ -156,14 +157,9 @@
                     </a>
                   </article>
                 </li>
-
         </ul>
-
-      </section>
-          
+      </section> 
       </main>
-
-
       <section class="map">
           <h2 class="visually-hidden">Наш адрес</h2>
           <address>
@@ -188,7 +184,7 @@
           </ul>
           </section>
        
-      <p class="footer-social">Давайте дружить это выгодно!<br>
+      <p class="footer-social">Давайте дружить это выгодно!</p>
       <p class="footer-social">Скидка 10% для друзей из социальных сетей</p>
       </footer>
         </body>
