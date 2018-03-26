@@ -37,8 +37,7 @@
         <section class="filters">
           <h2 class="visually-hidden">Фильтр товаров</h2>
       
-          <form class="filter" method="get">
-            <action="https://echo.htmlacademy.ru">.
+          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
               <fieldset>
                 <legend class="price">Стоимость</legend>
                 <div class="filter-interval__slider">
@@ -47,10 +46,10 @@
                   <div class="filter-interval__slider-badge filter-interval__slider-badge_left"></div>
                   <div class=" filter-interval__slider-badge filter-interval__slider-badge_right"></div>
           </div>
-                <input type="text" value="0">
+                <input type="text" value="0" id="min-value">
                 <label for="min-value">
                 </label>
-                <input type="text" value="15000">
+                <input type="text" value="15000" id="max-value">
                 <label for="max-value">
                 </label>
               </fieldset>
@@ -104,15 +103,15 @@
         <ul class="catalog-list">
           <li class="catalog-item.html">
           <article>
-              <img src="http://placehold.it/150x100">
+              <img src="http://placehold.it/150x100" alt="логотип">
               <h3 class="visually-hidden">Sedona</h3>
             <a href="catalog-item.html"></a> 
           </article>
           <p>
-            <img src="http://placehold.it/150x100">
+            <img src="http://placehold.it/150x100" alt="логотип" >
           </p>
           <p class="catalog-item">
-            <a class="button" href="#"
+            <a class="button" href="#">
               <strong>9 900 РУБ.</strong>
           </a>
           </p>
@@ -121,7 +120,7 @@
           <article>
             <a href="catalog-item.html">
               <h3 class="visually-hidden">Pink</h3>
-              <img src="http://placehold.it/150x100">
+              <img src="http://placehold.it/150x100" alt="логотип">
             </a>
           </article>
         </li>
@@ -129,7 +128,7 @@
             <article>
               <a href="catalog-item.html">
                 <h3 class="visually-hidden">Borodinski</h3>
-                <img src="http://placehold.it/150x100">
+                <img src="http://placehold.it/150x100" alt="логотип">
               </a>
             </article>
           </li>
@@ -137,7 +136,7 @@
               <article>
                 <a href="catalog-item.html">
                   <h3 class="visually-hidden">Mishka</h3>
-                  <img src="http://placehold.it/150x100">
+                  <img src="http://placehold.it/150x100" alt="логотип">
                 </a>
               </article>
             </li>
@@ -145,7 +144,7 @@
                 <article>
                   <a href="catalog-item.html">
                     <h3 class="visually-hidden">Ucheba</h3>
-                    <img src="http://placehold.it/150x100">
+                    <img src="http://placehold.it/150x100" alt="логотип">
                   </a>
                 </article>
               </li>
@@ -153,7 +152,7 @@
                   <article>
                     <a href="catalog-item.html">
                       <h3 class="visually-hidden">KVAST</h3>
-                      <img src="http://placehold.it/150x100">
+                      <img src="http://placehold.it/150x100" alt="логотип">
                     </a>
                   </article>
                 </li>
